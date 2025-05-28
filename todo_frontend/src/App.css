@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.task-item {
+  width: 75%; /* or 50%, or set a fixed width like 600px */
+  margin: 0 auto; /* center it */
+  border-radius: 1rem;
+}
+

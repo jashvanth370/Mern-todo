@@ -44,7 +44,7 @@ app.post('/todos', async (req, res) => {
 })
 
 //getAll
-app.get('/todos/getAll', async (req, res) => {
+app.get('/todos', async (req, res) => {
     try {
         const todos = await model.find();
         res.status(200).json(todos);
